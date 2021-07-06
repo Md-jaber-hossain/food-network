@@ -99,6 +99,9 @@ p{
 .social-media-sub div{
     padding: 60px 120px 60px 120px;
 }
+.social-media-sub span{
+    font-size: 30px;
+}
 .search-recipe{
     width: 90%;
     height: 200px;
@@ -116,9 +119,6 @@ p{
 }
 .search-recipe-sub h2{
     margin-left: 25px;
-}
-.social-media-sub span{
-    font-size: 30px;
 }
 footer{
     height: 250px;
