@@ -1,0 +1,115 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    line-height: 25px;
+}
+.gray-colour{
+    color: rgba(53, 56, 56, 0.815);
+}
+.gray-colour-light{
+    color: rgba(166, 167, 167, 0.479);
+}
+.blue-colour{
+    color: #099AF8;
+}
+.menu-bar{
+    text-align: center;
+    margin: 30px 80px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #099BF8, #A5D4EE);
+    border-radius: 20px;
+}
+.menu-bar p{
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+.healthy-food p{
+    color: gray;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to left, #0b71a8, #52b2f1);
+    padding: 20px 50px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 500;
+}
+.about-me-sub{
+    padding-top: 40px;
+}
+.background-image{
+    background-image: url(pic/shapes/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    width: 100%;
+    height: 475px;
+}
+.recipe{
+    height: 720px;
+}
+.recipe-sub{
+    margin: 5% 0% 5% 5%;
+}
+.recipe-item{
+    width: 30%;
+    margin: 0% 5% 0% 0%;
+    padding: 1% 1%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(194, 194, 194);
+}
+.recipe-item h2{
+    font-size: 25px;
+}
+.recipe-item img{
+    width: 100%;
+}
+.social-media-sub{
+    width: 90%;
+    height: 200px;
+    margin: 5% 5% 5% 5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(194, 194, 194);
+    display: flex;
+}
+.social-media-sub div{
+    padding: 60px 120px 60px 120px;
+}
+.social-media-sub span{
+    font-size: 30px;
+}
+footer{
+    height: 250px;
+    background-color: rgb(16, 16, 26);
+}
+footer p{
+    color: white;
+}
+footer div{
+    text-align: center;
+    padding-top: 40px;
+}
