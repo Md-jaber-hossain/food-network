@@ -27,6 +27,9 @@ p{
     background-image: linear-gradient(to right, #099BF8, #A5D4EE);
     border-radius: 20px;
 }
+.menu-bar a{
+    text-decoration: none;
+}
 .menu-bar p{
     display: inline;
     padding: 20px;
