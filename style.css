@@ -99,6 +99,24 @@ p{
 .social-media-sub div{
     padding: 60px 120px 60px 120px;
 }
+.search-recipe{
+    width: 90%;
+    height: 200px;
+    margin: 5% 5% 5% 5%;
+    background-image: url(pic/shapes/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(194, 194, 194);
+    display: flex;
+}
+.search-recipe-sub{
+    padding: 25px 20px 60px 425px;
+}
+.search-recipe-sub h2{
+    margin-left: 25px;
+}
 .social-media-sub span{
     font-size: 30px;
 }
