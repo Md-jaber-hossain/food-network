@@ -1,5 +1,9 @@
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
     margin: 0;
 }
 h1{
@@ -34,6 +38,9 @@ p{
     display: inline;
     padding: 20px;
     color: white;
+}
+.header-section{
+    display: flex;
 }
 .healthy-food p{
     color: gray;
@@ -72,6 +79,10 @@ p{
 }
 .recipe{
     height: 720px;
+}
+.recipe-margin{
+    text-align: center;
+    margin: 0px 400px;
 }
 .recipe-sub{
     margin: 5% 0% 5% 5%;
@@ -133,4 +144,237 @@ footer p{
 footer div{
     text-align: center;
     padding-top: 40px;
+}
+
+
+/*--------------
+ Media Query 
+ -------------*/
+
+ /* Mobile Devices */
+ @media only screen and (max-width:688px){
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 0;
+    }
+    p{
+        line-height: 20px;
+        text-align: center;
+    }
+    .menu-bar{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        border-radius: 0%;
+        padding: 15px;
+    }
+    .menu-bar p{
+        padding: 10px;
+    }
+    .button-1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .top-img{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .header-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 900px;
+
+    }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(to left, #0b71a8, #52b2f1);
+        padding: 15px 20px;
+        border-radius: 100px;
+        color: white;
+        font-weight: 500;
+    }
+    .about-me{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 950px;
+        width: 100%;
+    }
+    .button-2{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .recipe{
+        height: 1780px;
+    }
+    .recipe-margin{
+        margin: 0px 25px;
+
+    }
+    .recipe-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .recipe-item{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .recipe-item h2{
+        margin: 20px;
+    }
+    .recipe-item p{
+        padding: 0px 20px;
+    }
+    .social-media-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        margin-bottom: 50px;
+    }
+    .search-recipe{
+        background-image: url(pic/shapes/Frame57.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
+        margin-bottom: 40px;
+    }
+    .search-recipe-sub{
+        padding: 0px;
+        margin: auto;
+    }
+    .search-sub-input{
+        width: 100%;
+        text-align: center;
+    }
+    footer div{
+        padding-top: 80px;
+    }
+ }
+
+/* Tablet device */
+@media only screen and (min-width: 688px ) and (max-width: 992px ){
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 0;
+    }
+    p{
+        line-height: 20px;
+        text-align: center;
+    }
+    .menu-bar{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        border-radius: 0%;
+        padding: 15px;
+    }
+    .menu-bar p{
+        padding: 10px;
+    }
+    .button-1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .top-img{
+        margin-top: 20px;
+        width: 75%;
+        height: 80%;
+    }
+    .header-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 900px;
+
+    }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(to left, #0b71a8, #52b2f1);
+        padding: 15px 20px;
+        border-radius: 100px;
+        color: white;
+        font-weight: 500;
+    }
+    .about-me{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 850px;
+        width: 100%;
+    }
+    .button-2{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .recipe{
+        height: 2200px;
+    }
+    .recipe-margin{
+        margin: 0px 25px;
+
+    }
+    .recipe-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .recipe-item{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .recipe-item h2{
+        margin: 20px;
+    }
+    .recipe-item p{
+        padding: 0px 20px;
+    }
+    .social-media-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .search-recipe{
+        background-image: url(pic/shapes/Frame57.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
+        margin-bottom: 40px;
+    }
+    .search-recipe-sub{
+        padding: 0px;
+        margin: auto;
+    }
+    .search-sub-input{
+        width: 100%;
+        text-align: center;
+    }
+    footer div{
+        padding-top: 80px;
+    }
 }
