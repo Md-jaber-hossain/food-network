@@ -193,13 +193,21 @@ footer div{
         height: 900px;
 
     }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(to left, #0b71a8, #52b2f1);
+        padding: 10px 10px;
+        border-radius: 100px;
+        color: white;
+        font-weight: 500;
+    }
     .about-me{
         margin-top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 850px;
+        height: 950px;
         width: 100%;
     }
     .button-2{
@@ -234,10 +242,14 @@ footer div{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 550px;
+        height: 700px;
         margin-bottom: 50px;
     }
     .search-recipe{
+        background-image: url(pic/shapes/Frame57.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
         margin-bottom: 40px;
     }
     .search-recipe-sub{
@@ -295,6 +307,14 @@ footer div{
         height: 900px;
 
     }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(to left, #0b71a8, #52b2f1);
+        padding: 10px 10px;
+        border-radius: 100px;
+        color: white;
+        font-weight: 500;
+    }
     .about-me{
         margin-top: 50px;
         display: flex;
@@ -340,6 +360,10 @@ footer div{
         margin-bottom: 50px;
     }
     .search-recipe{
+        background-image: url(pic/shapes/Frame57.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
         margin-bottom: 40px;
     }
     .search-recipe-sub{
